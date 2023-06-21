@@ -1,0 +1,13 @@
+.project{
+  animation: project 1s ease-in-out 0s forwards;
+}
+@keyframes project {
+  from{
+    opacity: 0;
+    
+  }
+  to{
+    opacity: 1;
+  
+  }
+}

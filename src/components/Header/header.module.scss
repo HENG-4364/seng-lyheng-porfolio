@@ -1,0 +1,59 @@
+@media (min-width: 1200px) {
+  .background_img {
+    height: 35vw;
+    width: 35vw;
+  }
+}
+@media (min-width: 992px) {
+  .background_img {
+    height: 40vw;
+    width: 40vw;
+  }
+}
+@media (min-width: 768px) {
+  .background_img {
+    height: 50vw;
+    width: 50vw;
+  }
+}
+@media (min-width: 576px) {
+  .background_img {
+    height: 60vw;
+    width: 60vw;
+  }
+}
+.background_img {
+  position: relative;
+  height: 75vw;
+  width: 75vw;
+  border-radius: 5vw;
+  margin-top: 5vw;
+  max-height: 40rem;
+  max-width: 40rem;
+}
+.Header{
+  animation: fadeIn 1s ease-in-out 0s forwards;
+}
+@keyframes fadeIn {
+  from{
+    opacity: 0;
+    letter-spacing: 5px;
+  }
+  to{
+    opacity: 1;
+    letter-spacing: 2px;
+  }
+}
+.background_img{
+  animation: img 2s ease-in-out 0s forwards;
+}
+@keyframes img {
+  from{
+    opacity: 0;
+    
+  }
+  to{
+    opacity: 1;
+  
+  }
+}

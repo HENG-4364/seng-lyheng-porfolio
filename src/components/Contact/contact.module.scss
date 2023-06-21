@@ -1,0 +1,13 @@
+.contact{
+  animation: contact 1s ease-in-out 0s forwards;
+}
+@keyframes contact {
+  from{
+    opacity: 0;
+    
+  }
+  to{
+    opacity: 1;
+  
+  }
+}
