@@ -18,7 +18,7 @@ export default function Navbar({ toggleOffcanvas, ...props }) {
     <>
       <nav className="navbar navbar-expand-lg navbar-light bg-white py-3">
         <div className={`container px-5 ${style.abc}`}>
-          <Link className="navbar-brand" to="/">
+          <Link className="navbar-brand " to="/">
             <span className={`text-gradient d-inline fw-bolder  ${style.logo}`}>
               <img src={logo} alt="logo" />
             </span>

@@ -5,6 +5,8 @@ import HomePage from './pages';
 import ResumePage from './pages/resume';
 import ProjectPage from './pages/project';
 import ContactPage from './pages/contact';
+import 'animate.css';
+import 'aos/dist/aos.css';
 
 function App() {
   return (

@@ -1,7 +1,14 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { Link } from 'react-router-dom';
-
+import AOS from 'aos';
 export default function Experience(props) {
+  useEffect(() => {
+    AOS.init({
+      duration: 700,
+      easing: 'ease-in-out',
+      delay: 100,
+    });
+  }, []);
   return (
     <>
       <section>
@@ -9,14 +16,18 @@ export default function Experience(props) {
           <h2 className="text-primary fw-bolder mb-0">Experience</h2>
 
           <Link className="btn btn-primary px-4 py-3 text-center" href="#!">
-            <div className="" style={{fontSize:'15px'}}>
+            <div className="" style={{ fontSize: '15px' }}>
               Download
             </div>
           </Link>
         </div>
         {props.experiencedata.map((item) => {
           return (
-            <div className="card shadow border-0 rounded-4 mb-5">
+            <div
+              className="card shadow border-0 rounded-4 mb-5 "
+         
+              data-aos={item.exp_id % 2 === 0 ?("fade-right"):("fade-left")}
+            >
               <div className="card-body p-5">
                 <div className="row align-items-center gx-5">
                   <div className="col text-center text-lg-start mb-4 mb-lg-0">
