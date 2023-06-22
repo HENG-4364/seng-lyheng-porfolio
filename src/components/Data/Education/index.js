@@ -15,5 +15,20 @@ export const education_list = [
         edu_location:"Banteay MeanChey",
         edu_des: "",
     },
-   
+    {
+        edu_id: '3',
+        edu_years: "2016 - 2019",
+        edu_name: 'High School',
+        edu_school: "Hun Sen Mongkol Borey",
+        edu_location:"Banteay MeanChey",
+        edu_des: "",
+    },
+    {
+        edu_id: '4',
+        edu_years: "2016 - 2019",
+        edu_name: 'High School',
+        edu_school: "Hun Sen Mongkol Borey",
+        edu_location:"Banteay MeanChey",
+        edu_des: "",
+    },
 ]
