@@ -15,11 +15,11 @@ export default function Header() {
                   </div>
                 </div>
                 <div className="fs-3 fw-light text-muted">
-                  I can help your business...
+                 Hi !
                 </div>
                 <h1 className="display-3 fw-bolder mb-5">
                   <span className="text-gradient d-inline">
-                    I'm SENG Lyheng...
+                    I'm SENG Lyheng
                   </span>
                 </h1>
                 <div className="d-grid gap-3 d-sm-flex justify-content-sm-center justify-content-xxl-start mb-3">

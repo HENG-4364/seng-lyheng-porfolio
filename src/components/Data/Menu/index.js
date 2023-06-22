@@ -3,10 +3,10 @@ export const menu_list = [
     name: 'Home',
     url: '/',
   },
-  {
-    name: 'About',
-    url: '/',
-  },
+  // {
+  //   name: 'About',
+  //   url: '/',
+  // },
   {
     name: 'Resume',
     url: '/resume',

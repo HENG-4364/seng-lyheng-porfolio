@@ -7,6 +7,7 @@ import ProjectPage from './pages/project';
 import ContactPage from './pages/contact';
 import 'animate.css';
 import 'aos/dist/aos.css';
+import NotFound from './pages/notfound';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
           <Route path="/resume" element={<ResumePage />} />
           <Route path="/project" element={<ProjectPage />} />
           <Route path="/contact" element={<ContactPage />} />
+          <Route path="*" element={<NotFound />} />
         </Routes>
       </BrowserRouter>
     </>
