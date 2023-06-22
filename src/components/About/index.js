@@ -1,9 +1,16 @@
-import React from 'react';
-
+import React, { useEffect } from 'react';
+import AOS from 'aos';
 export default function About() {
+  useEffect(() => {
+    AOS.init({
+      duration: 1000,
+      easing: 'ease-in-out',
+      delay: 100,
+    });
+  }, []);
   return (
     <>
-      <section className="bg-light py-5">
+      <section className="bg-light py-5" data-aos="zoom-in">
         <div className="container px-5">
           <div className="row gx-5 justify-content-center">
             <div className="col-xxl-8">

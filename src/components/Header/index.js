@@ -8,8 +8,7 @@ export default function Header() {
         <div className="container px-5 pb-5">
           <div className="row gx-5 align-items-center">
             <div className="col-xxl-5">
-              
-              <div className={`text-center text-xxl-start ${style.Header}`}>
+              <div className={`text-center text-xxl-start  ${style.Header}`}>
                 <div className="badge bg-gradient-primary-to-secondary text-white mb-4">
                   <div className={`text-uppercase ${style.text}`}>
                     Design · Development · Website
@@ -45,7 +44,7 @@ export default function Header() {
                   className={` bg-gradient-primary-to-secondary ${style.background_img}`}
                 >
                   <img
-                    className="profile-img"
+                    className="profile-img "
                     src="https://oggyinu.com/wp-content/uploads/2023/05/tokenomic-1.png"
                     alt="..."
                     style={{ width: '100%', height: '100%' }}
