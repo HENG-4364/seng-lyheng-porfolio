@@ -17,7 +17,7 @@ const NotFound = () => {
     <div className={`${style.background}`}>
       <div className={`container ${style.notfound_page}`}>
         <div className={`${style.text_zone}`}>
-          <h1>
+          <h1>   
             <AnimatedLetter
               letterClass={letterClass}
               strArray={'404 Not Found'.split('')}

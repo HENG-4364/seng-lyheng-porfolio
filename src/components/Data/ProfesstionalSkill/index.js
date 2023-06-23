@@ -11,7 +11,7 @@ export const pro_skill_list = [
     },
     {
         pro_id: 3,
-        pro_name: ""
+        pro_name: "Microsoft Office"
 
     },
     {
