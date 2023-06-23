@@ -3,9 +3,9 @@ import { FaHtml5, FaReact } from 'react-icons/fa';
 
 const BuildIcon = (props) => {
   return (
-    <i
-      className={`${props?.type ? `fa-${props?.type}` : 'fa'} ${props.icon} fa-2xl`}
-    />
+    <i className={`${props?.type ? `fa-${props?.type}` : 'fa'} ${props.icon} fa-2xl`}
+      style={{color:"#6396eeF" }}
+    ></i>
   );
 };
 
@@ -27,7 +27,7 @@ export default function Languages(props) {
               <div className="col mb-4 mb-md-4">
                 <div className="d-flex align-items-center bg-light rounded-4 p-3 h-100">
                   <BuildIcon type={item.lang_type} icon={item.lang_icon} />
-                  <span style={{marginLeft:'10px'}}>{item.lang_name}</span>
+                  <span style={{ marginLeft: '10px' }}>{item.lang_name}</span>
                 </div>
               </div>
             );

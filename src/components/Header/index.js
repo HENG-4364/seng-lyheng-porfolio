@@ -1,6 +1,7 @@
 import React from 'react';
 import style from './header.module.scss';
 import { Link } from 'react-router-dom';
+import logo from '../../images/404.png';
 export default function Header() {
   return (
     <>
@@ -45,7 +46,7 @@ export default function Header() {
                 >
                   <img
                     className="profile-img "
-                    src="https://oggyinu.com/wp-content/uploads/2023/05/tokenomic-1.png"
+                    src={logo}
                     alt="..."
                     style={{ width: '100%', height: '100%' }}
                   />
