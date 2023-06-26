@@ -22,7 +22,7 @@ export default function About() {
                 </h2>
                 <p className="lead fw-light mb-4">My name is SENG Lyheng.</p>
                 <p className="text-muted">I am 21 years old.</p>
-                <p className="text-muted">I from Cambodia.</p>
+                <p className="text-muted">I am from Cambodia.</p>
                 <div className="d-flex justify-content-center fs-2 gap-4">
                   <Link className="text-gradient" href="">
                     <FaGithub />
